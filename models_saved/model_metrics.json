@@ -1,0 +1,264 @@
+{
+  "best_model_name": "Logistic Regression",
+  "training_times": {
+    "Logistic Regression": 0.02,
+    "Support Vector Machine": 0.075,
+    "Random Forest": 0.619,
+    "Multinomial Naive Bayes": 0.003
+  },
+  "comparison_summary": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 1.0,
+      "Precision (Fake)": 1.0,
+      "Recall (Fake)": 1.0,
+      "F1-Score (Fake)": 1.0,
+      "F1-Score (Macro)": 1.0,
+      "ROC-AUC": 1.0
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 1.0,
+      "Precision (Fake)": 1.0,
+      "Recall (Fake)": 1.0,
+      "F1-Score (Fake)": 1.0,
+      "F1-Score (Macro)": 1.0,
+      "ROC-AUC": 1.0
+    },
+    {
+      "Model": "Multinomial Naive Bayes",
+      "Accuracy": 1.0,
+      "Precision (Fake)": 1.0,
+      "Recall (Fake)": 1.0,
+      "F1-Score (Fake)": 1.0,
+      "F1-Score (Macro)": 1.0,
+      "ROC-AUC": 1.0
+    },
+    {
+      "Model": "Support Vector Machine",
+      "Accuracy": 0.9958,
+      "Precision (Fake)": 0.9917,
+      "Recall (Fake)": 1.0,
+      "F1-Score (Fake)": 0.9959,
+      "F1-Score (Macro)": 0.9958,
+      "ROC-AUC": 1.0
+    }
+  ],
+  "detailed_metrics": {
+    "Logistic Regression": {
+      "model_name": "Logistic Regression",
+      "accuracy": 1.0,
+      "precision_fake": 1.0,
+      "recall_fake": 1.0,
+      "f1_fake": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          120,
+          0
+        ],
+        [
+          0,
+          120
+        ]
+      ],
+      "tn": 120,
+      "fp": 0,
+      "fn": 0,
+      "tp": 120,
+      "classification_report": {
+        "Real News (0)": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 120.0
+        },
+        "Fake News (1)": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 120.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 240.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 240.0
+        }
+      }
+    },
+    "Support Vector Machine": {
+      "model_name": "Support Vector Machine",
+      "accuracy": 0.9958,
+      "precision_fake": 0.9917,
+      "recall_fake": 1.0,
+      "f1_fake": 0.9959,
+      "precision_macro": 0.9959,
+      "recall_macro": 0.9958,
+      "f1_macro": 0.9958,
+      "f1_weighted": 0.9958,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          119,
+          1
+        ],
+        [
+          0,
+          120
+        ]
+      ],
+      "tn": 119,
+      "fp": 1,
+      "fn": 0,
+      "tp": 120,
+      "classification_report": {
+        "Real News (0)": {
+          "precision": 1.0,
+          "recall": 0.9916666666666667,
+          "f1-score": 0.99581589958159,
+          "support": 120.0
+        },
+        "Fake News (1)": {
+          "precision": 0.9917355371900827,
+          "recall": 1.0,
+          "f1-score": 0.995850622406639,
+          "support": 120.0
+        },
+        "accuracy": 0.9958333333333333,
+        "macro avg": {
+          "precision": 0.9958677685950413,
+          "recall": 0.9958333333333333,
+          "f1-score": 0.9958332609941145,
+          "support": 240.0
+        },
+        "weighted avg": {
+          "precision": 0.9958677685950412,
+          "recall": 0.9958333333333333,
+          "f1-score": 0.9958332609941145,
+          "support": 240.0
+        }
+      }
+    },
+    "Random Forest": {
+      "model_name": "Random Forest",
+      "accuracy": 1.0,
+      "precision_fake": 1.0,
+      "recall_fake": 1.0,
+      "f1_fake": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          120,
+          0
+        ],
+        [
+          0,
+          120
+        ]
+      ],
+      "tn": 120,
+      "fp": 0,
+      "fn": 0,
+      "tp": 120,
+      "classification_report": {
+        "Real News (0)": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 120.0
+        },
+        "Fake News (1)": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 120.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 240.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 240.0
+        }
+      }
+    },
+    "Multinomial Naive Bayes": {
+      "model_name": "Multinomial Naive Bayes",
+      "accuracy": 1.0,
+      "precision_fake": 1.0,
+      "recall_fake": 1.0,
+      "f1_fake": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "f1_weighted": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          120,
+          0
+        ],
+        [
+          0,
+          120
+        ]
+      ],
+      "tn": 120,
+      "fp": 0,
+      "fn": 0,
+      "tp": 120,
+      "classification_report": {
+        "Real News (0)": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 120.0
+        },
+        "Fake News (1)": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 120.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 240.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 240.0
+        }
+      }
+    }
+  },
+  "vocab_size": 1632,
+  "total_samples": 1200,
+  "test_samples": 240
+}
